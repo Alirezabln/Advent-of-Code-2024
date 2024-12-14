@@ -2,8 +2,8 @@
 --------------------------
 Advent of Code 2024
 Alireza Bolourian
-Challenge 2 of 25
-Part 1
+Challenge 1 of 25
+Part 2
 --------------------------
 */
 
