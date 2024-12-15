@@ -77,7 +77,7 @@ int main() {
 			}
 			// Check to see if the difference between two consecutive numbers is less than 4 and it is increasing
 			if (((report[i] - report[i + 1]) < 1) || ((report[i] - report[i + 1]) > 3)) {
-				// Remove the ith and (i+1)th element and check the rest of the elements
+				// Remove the ith or (i+1)th element and check the rest of the elements
 				for (int j = i; j < i + 2; j++) {
 					vector<int> temp = report;
 					temp.erase(temp.begin() + j);
